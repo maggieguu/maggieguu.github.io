@@ -20,13 +20,13 @@ export default function Home() {
         <section className="snap-start">
           <Navbar />
           <section className="flex h-screen justify-center bg-fixed">
-            <div className="m-auto text-3xl">
+            <div className="m-auto text-3xl md:columns-1 text-center">
               <h1>hi, my name is 顾恒同, but you can call me maggie... </h1>
             </div>
           </section>
         </section>
 
-        <section className="md:columns-2 h-screen bg-fixed snap-start">
+        <section className="md:columns-2 h-screen bg-fixed snap-start sm: columns-1">
           <div className="h-full flex items-center content-center justify-center break-inside-avoid-column">
             <div className="p-16">
               {/* <h1 className="mx-auto">the basics</h1> */}
@@ -150,7 +150,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="md:columns-2 h-screen bg-fixed snap-start">
+        <section className="md:columns-2 h-screen bg-fixed snap-start sm: columns-1">
           <h1 className="m-auto text-3xl justify-center flex h-full items-center">
             why does this exist?
           </h1>
