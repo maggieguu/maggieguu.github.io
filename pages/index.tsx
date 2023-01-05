@@ -55,7 +55,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex items-center h-full h-screen content-center justify-center inline-block">
+          <div className="flex items-center h-full h-screen content-center justify-center inline-block break-inside-avoid-column">
             <Image
               src={granvilleImage}
               alt="selfie"
@@ -154,7 +154,7 @@ export default function Home() {
           <h1 className="m-auto text-3xl justify-center flex h-full items-center">
             why does this exist?
           </h1>
-          <div className="m-auto break-inside-avoid-column">
+          <div className="m-auto break-inside-avoid-column break-inside-avoid-column">
             <h3 className="text-xl justify-center ">
               a) exists as a place to collate some of my thoughts & works{" "}
               <br></br>

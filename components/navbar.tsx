@@ -27,25 +27,47 @@ function MobileNav({ open, setOpen }) {
       <div className="flex flex-col ml-4">
         <a
           className="text-xl font-medium my-4"
-          href="/about"
+          href="/projects"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
             }, 100)
           }
         >
-          About
+          projects
         </a>
         <a
           className="text-xl font-normal my-4"
-          href="/contact"
+          href="/food"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
             }, 100)
           }
         >
-          Contact
+          food
+        </a>
+        <a
+          className="text-xl font-normal my-4"
+          href="/photos"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          photos
+        </a>
+        <a
+          className="text-xl font-normal my-4"
+          href="/resume"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          resume
         </a>
       </div>
     </div>
