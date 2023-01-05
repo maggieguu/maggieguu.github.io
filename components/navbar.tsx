@@ -25,7 +25,7 @@ function MobileNav({ open, setOpen }) {
         </Link>
       </div>
       <div className="flex flex-col ml-4">
-        <a
+        <Link
           className="text-xl font-medium my-4"
           href="/projects"
           onClick={() =>
@@ -35,8 +35,8 @@ function MobileNav({ open, setOpen }) {
           }
         >
           projects
-        </a>
-        <a
+        </Link>
+        <Link
           className="text-xl font-normal my-4"
           href="/food"
           onClick={() =>
@@ -46,8 +46,8 @@ function MobileNav({ open, setOpen }) {
           }
         >
           food
-        </a>
-        <a
+        </Link>
+        <Link
           className="text-xl font-normal my-4"
           href="/photos"
           onClick={() =>
@@ -57,8 +57,8 @@ function MobileNav({ open, setOpen }) {
           }
         >
           photos
-        </a>
-        <a
+        </Link>
+        <Link
           className="text-xl font-normal my-4"
           href="/resume"
           onClick={() =>
@@ -68,7 +68,7 @@ function MobileNav({ open, setOpen }) {
           }
         >
           resume
-        </a>
+        </Link>
       </div>
     </div>
   );
