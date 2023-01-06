@@ -26,8 +26,8 @@ export default function Home() {
           </section>
         </section>
 
-        <section className="md:columns-2 h-screen bg-fixed snap-start sm: columns-1">
-          <div className="h-full flex items-center content-center justify-center break-inside-avoid-column">
+        <section className="md:columns-2 h-screen bg-fixed snap-start columns-1">
+          <div className="md:h-full flex items-center content-center justify-center break-inside-avoid-column">
             <div className="p-16">
               {/* <h1 className="mx-auto">the basics</h1> */}
 
@@ -55,7 +55,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex items-center h-full h-screen content-center justify-center inline-block break-inside-avoid-column">
+          <div className="flex items-center md:h-full content-center justify-center break-inside-avoid-column">
             <Image
               src={granvilleImage}
               alt="selfie"
@@ -150,11 +150,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="md:columns-2 h-screen bg-fixed snap-start sm: columns-1">
-          <h1 className="m-auto text-3xl justify-center flex h-full items-center">
+        <section className="md:columns-2 h-screen bg-fixed snap-start columns-1 p-8">
+          <h1 className="text-3xl justify-center flex md:h-full items-center p-8">
             why does this exist?
           </h1>
-          <div className="m-auto break-inside-avoid-column break-inside-avoid-column">
+          <div className="break-inside-avoid-column md:h-full flex justify-center content-center items-center p-8">
             <h3 className="text-xl justify-center ">
               a) exists as a place to collate some of my thoughts & works{" "}
               <br></br>
