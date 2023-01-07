@@ -21,13 +21,13 @@ export default function Home() {
           <div className="columns-1 gap-4 space-y-4 p-8 md:columns-3">
             <div className="h-min w-full break-inside-avoid-column rounded border p-4 shadow transition-shadow duration-100 ease-in-out hover:shadow-lg">
               <h2 className="text-xl">Windows Pet Application</h2>
-              <h3 className="text-md">.NET framework, C#</h3>
+              <h3 className="text-md">.NET, C#</h3>
               <p className="py-4">
                 Originally designed to be used by my little brother and I. Each
                 user&apos;s pet roams around in the enclosed window. Users can
                 communicate with each other by typing a message that displayed
                 as their pet &ldquo;speaking.&rdquo; Graphics inspired by pixel
-                art and drawn by me. Currently being expanded to accomodate
+                art and drawn by me. Currently being expanded to accommodate
                 multiple users. Expected completion: middle of January 2023.
               </p>
 
@@ -37,9 +37,7 @@ export default function Home() {
                 </span>
               </button>
             </div>
-          </div>
 
-          <div className="columns-1 gap-4 space-y-4 p-8 md:columns-3">
             <div className="h-min w-full break-inside-avoid-column rounded border p-4 shadow transition-shadow duration-100 ease-in-out hover:shadow-lg">
               <h2 className="text-xl">UBC Schedule App</h2>
               <h3 className="text-md">Javascript, React, Google Maps API</h3>
