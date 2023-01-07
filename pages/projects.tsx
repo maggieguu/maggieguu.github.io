@@ -17,15 +17,38 @@ export default function Home() {
         <Navbar />
         <section className="space-y-4 py-8">
           <h2 className="text-center text-3xl">Programming Projects</h2>
+
+          <div className="columns-1 gap-4 space-y-4 p-8 md:columns-3">
+            <div className="h-min w-full break-inside-avoid-column rounded border p-4 shadow transition-shadow duration-100 ease-in-out hover:shadow-lg">
+              <h2 className="text-xl">Windows Pet Application</h2>
+              <h3 className="text-md">.NET framework, C#</h3>
+              <p className="py-4">
+                Originally designed to be used by my little brother and I. Each
+                user's pet roams around in the enclosed window. Users can
+                communicate with each other by typing a message that displayed
+                as their pet "speaking." Graphics inspired by pixel art and
+                drawn by me. Currently being expanded to accomodate multiple
+                users. Expected completion: middle of January 2023.
+              </p>
+
+              <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-black dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
+                <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white text-black rounded-md group-hover:bg-opacity-0">
+                  GitHub Link Coming Soon...
+                </span>
+              </button>
+            </div>
+          </div>
+
           <div className="columns-1 gap-4 space-y-4 p-8 md:columns-3">
             <div className="h-min w-full break-inside-avoid-column rounded border p-4 shadow transition-shadow duration-100 ease-in-out hover:shadow-lg">
               <h2 className="text-xl">UBC Schedule App</h2>
               <h3 className="text-md">Javascript, React, Google Maps API</h3>
               <p className="py-4">
                 Mobile application for UBC students to send and compare class
-                schedules and locations. Also collates and analyzes user-fed
-                data, with Google Map data, to calculate the shortest distance
-                between class locations.
+                schedules and locations. Currently adding feature to analyze
+                user-fed data & Google Map data to calculate the shortest
+                distance between class locations. Expected completion: end of
+                January 2023.
               </p>
 
               <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-black dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
