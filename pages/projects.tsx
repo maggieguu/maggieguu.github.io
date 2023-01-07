@@ -24,11 +24,11 @@ export default function Home() {
               <h3 className="text-md">.NET framework, C#</h3>
               <p className="py-4">
                 Originally designed to be used by my little brother and I. Each
-                user's pet roams around in the enclosed window. Users can
+                user&apos;s pet roams around in the enclosed window. Users can
                 communicate with each other by typing a message that displayed
-                as their pet "speaking." Graphics inspired by pixel art and
-                drawn by me. Currently being expanded to accomodate multiple
-                users. Expected completion: middle of January 2023.
+                as their pet &ldquo;speaking.&rdquo; Graphics inspired by pixel
+                art and drawn by me. Currently being expanded to accomodate
+                multiple users. Expected completion: middle of January 2023.
               </p>
 
               <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-black dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
