@@ -19,6 +19,9 @@ export default function Home() {
           <h2 className="text-center text-3xl">Programming Projects</h2>
 
           <div className="columns-1 gap-4 space-y-4 p-8 md:columns-3">
+
+          
+
             <div className="h-min w-full break-inside-avoid-column rounded border p-4 shadow transition-shadow duration-100 ease-in-out hover:shadow-lg">
               <h2 className="text-xl">Windows Pet Application</h2>
               <h3 className="text-md">.NET, C#</h3>
@@ -104,6 +107,22 @@ export default function Home() {
                   className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white text-black rounded-md group-hover:bg-opacity-0"
                 >
                   GitHub Link
+                </a>
+              </button>
+            </div>
+
+            <div className="h-min w-full break-inside-avoid-column rounded border p-4 shadow transition-shadow duration-100 ease-in-out hover:shadow-lg">
+              <h2 className="text-xl">CPEN 291 Robot</h2>
+              <h3 className="text-md">Python</h3>
+              <p className="py-4">
+                CPEN 291 project.
+              </p>
+              <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-black dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
+                <a
+                  href="../robot.tsx"
+                  className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white text-black rounded-md group-hover:bg-opacity-0"
+                >
+                  Control
                 </a>
               </button>
             </div>
