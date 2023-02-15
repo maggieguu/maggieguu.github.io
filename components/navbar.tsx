@@ -114,6 +114,7 @@ export default function Navbar() {
           <NavLink to="/food">food</NavLink>
           <NavLink to="/photos">photos</NavLink>
           <NavLink to="/resume">resume</NavLink>
+          <NavLink to="/robot">robot</NavLink>
           {/* <a href="../public/resume.pdf" target="_blank" className="mx-4">
             resume
           </a> */}

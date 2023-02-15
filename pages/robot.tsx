@@ -14,6 +14,13 @@ export default function Home() {
       <main>
         <Navbar />
             <h1> hello world!!</h1>
+            const com = ["theWave", "swim", "footTap", "shuffle"];
+            <h1>com[1]</h1>
+
+            {/* const timer = setTimeout(() => {
+                <h1> com.map((com) => (<h2>{com}</h2>))}
+                </h1>
+            } */}
       </main>
     </>
   );
